@@ -99,7 +99,6 @@ def compute_overlaps(boxes1, boxes2):
 def compute_overlaps_masks(masks1, masks2):
     """Computes IoU overlaps between two sets of masks.
     masks1, masks2: [Height, Width, instances]
-
     """
     
     # If either set of masks is empty return empty result
